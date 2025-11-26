@@ -1,0 +1,4 @@
+1) Filename: fear_test.jpg
+Class: Sad
+Confidence in prediction: 96.85%
+
