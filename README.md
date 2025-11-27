@@ -42,7 +42,7 @@ Available classes are: angry, fear, happy, sad and surprise.
 
 
 11. Check if the response is same:
-![correct_response.png](images_for_readme/correct_response.png)![img.png](images_for_readme/response.png)
+![correct_response.png](images_for_readme/correct_response.png)
 12. There will be file predictions.txt in your /predictions directory with all your predictions.
 
 # Dataset Information
