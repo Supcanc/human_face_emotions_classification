@@ -14,8 +14,15 @@ Available classes are: angry, fear, happy, sad and surprise.
 2. Load images that you want to predict in images_for_test/ directory.
 
 
-3. Enable your Docker.
+3. Enable your Docker. If you use the model on CPU, you should change this line in Dockerfile:
 
+```RUN pip install torch==2.9.1+cu130 torchvision==0.24.1+cu130 --index-url https://download.pytorch.org/whl/cu130```
+
+to:
+
+```RUN pip install torch==2.9.1 torchvision==0.24.1```
+
+If you use GPU, but it's not NVIDIA you should check how to install it on Pytorch website and change this line in Dockerfile.
 
 4. Type in the terminal(in the project diretctory) this command: 
 
